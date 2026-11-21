@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Bilibili video to GIF",
+    "description": "Turn Bilibili videos into GIF clips, bypassing the 412 anti-bot page and CDN 403.",
+    "detail": "docs/DETAIL.md"
+  }
+}

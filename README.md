@@ -2,6 +2,14 @@
 
 一个 [DeepSeek Harness](https://github.com/deepseek-ai) 技能：把 B站（或任意本地）视频截成 GIF 动图。
 
+本仓库同时是一个 **DSH 插件（bundle）**：`package.json` 声明了 `dsh.bundle`，装上后自动注册 `bilibili-video-to-gif` 技能。
+
+```bash
+dsh plugin add dsh-skill-bilibili-video-to-gif
+```
+
+不装插件也可以，把技能目录拷进 `~/.dsh/skills/` 同样生效。
+
 解决的是实操中最容易卡住的三个点：
 
 1. **B站 412 风控** —— `yt-dlp` 会先抓播放页 HTML，非浏览器 UA 一律 412，带 cookie 也救不回来。本技能根本不碰播放页，只走 `api.bilibili.com`。

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bilibili video to GIF">
+  <rect x="4" y="10" width="56" height="44" rx="8" fill="#1f2229"/>
+  <rect x="10" y="16" width="44" height="32" rx="4" fill="#2b2f38"/>
+  <path d="M26 24 L42 32 L26 40 Z" fill="#ff563c"/>
+  <rect x="14" y="52" width="18" height="3" rx="1.5" fill="#5b6170"/>
+  <rect x="36" y="52" width="14" height="3" rx="1.5" fill="#5b6170"/>
+</svg>

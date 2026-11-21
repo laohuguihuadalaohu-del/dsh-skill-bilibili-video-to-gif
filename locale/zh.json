@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "B站视频转 GIF",
+    "description": "把 B站视频截成 GIF，绕开 412 风控与 CDN 403，含抽帧定位与调色板压缩。",
+    "detail": "docs/DETAIL.md"
+  }
+}
