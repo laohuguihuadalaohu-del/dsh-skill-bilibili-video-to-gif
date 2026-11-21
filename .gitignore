@@ -1,0 +1,22 @@
+# 下载与产物（体积大且可能涉版权，绝不入库）
+downloads/
+sheets/
+out/
+*.mp4
+*.flv
+*.gif
+*.webp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+._*
+
+# 编辑器
+.idea/
+.vscode/
